@@ -1,6 +1,7 @@
 const result = document.getElementById("result");
 const btn = document.querySelectorAll("button");
 
+//--Calculator Code--//
 btn.forEach((button) => {
     button.addEventListener("click", (event) => {
         if((event.target.textContent === "AC")){
